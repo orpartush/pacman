@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-family: 'Amarante', cursive;
+  font-size: 1.5rem;
+}
+
+.board-container table {
+  margin: 0 auto;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.game-over-modal {
+  background: rgb(248, 48, 48);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  padding: 5% 10px;
+}
+
+.play-again-btn {
+  margin: 0;
+  border: none;
+  font-family: 'Amarante', cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.play-again-btn:hover {
+  cursor: pointer;
+  background: black;
+  color: #fff;
+}
